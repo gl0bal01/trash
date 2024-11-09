@@ -9,4 +9,4 @@ jobs:
     steps:
       - name: Make API Request
         run: |
-          curl -X GET "https://actions.ctf.cert.unlp.edu.ar/" -H "Accept: application/json"
+          curl "https://actions.ctf.cert.unlp.edu.ar/"
