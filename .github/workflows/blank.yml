@@ -9,4 +9,5 @@ jobs:
         run: |
           curl -X GET "https://actions.ctf.cert.unlp.edu.ar/" \
           -H "Accept: application/json" \
-          -H "Content-Type: application/json"
+          -H "Content-Type: application/json" \
+          -H "X-CERTUNLP: flag"
